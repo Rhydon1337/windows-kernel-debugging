@@ -10,7 +10,7 @@ Microsoft publishes symbols to every windows version, using symbols we can see f
 
 Create local directory (c:\symbols) for symbols caching.
 
-Add to your host machine system environment variables the symbol server path.
+Add to your host machine system environment variables the symbol server path:
 
 Open cmd as Administrator in your host machine and run: `set _NT_SYMBOL_PATH=srv*c:\symbols*https://msdl.microsoft.com/download/symbols`
 
