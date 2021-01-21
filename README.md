@@ -24,7 +24,7 @@ Open cmd as Administrator in your host machine and run: `set _NT_SYMBOL_PATH=srv
 7. Open windbg, File->Kernel Debug->NET, enter the port that you choose and the output key
 8. Break into the debugger using CTRL+Break
 9. Run in windbg: .reload /f (in order to load the kernel symbols)
-10. Ensure all the symbols are loaded using: lm
+10. Ensure that all the symbols are loaded using: lm
  
 Now you got a kernel debugging session.
 
