@@ -8,11 +8,10 @@ How to create a setup for windows kernel debugging using WinDbg and VMware Works
 ## Configure the symbols server
 Microsoft publishes symbols to every windows version, using symbols we can see functions names and global vars and more. The public symbols are extremely important to the debugging session.
 
-Add to your system environment variables
+Create local directory (c:\symbols) for symbols caching.
 
-Variable name : Variable value
-
-_NT_SYMBOL_PATH : `srv*c:\symbols*https://msdl.microsoft.com/download/symbols`
+Add to your host machine system environment variables the symbol server path.
+Open cmd as Administrator in your host machine and run: `set _NT_SYMBOL_PATH=srv*c:\symbols*https://msdl.microsoft.com/download/symbols`
 
 ## Setup
 1. Check that you have a ping between the host and the guest (if you don't have a ping try to configure the network adapter from the workstation to bridged)
