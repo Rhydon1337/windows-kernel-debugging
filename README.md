@@ -12,7 +12,7 @@ Add to your system environment variables
 
 Variable name : Variable value
 
-_NT_SYMBOL_PATH : srv*c:\symbols*https://msdl.microsoft.com/download/symbols
+_NT_SYMBOL_PATH : [srv*c:\symbols*https://msdl.microsoft.com/download/symbols]()
 
 ## Setup
 1. Check that you have a ping between the host and the guest (if you don't have a ping try to configure the network adapter from the workstation to bridged)
