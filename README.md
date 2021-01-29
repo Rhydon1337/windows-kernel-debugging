@@ -26,6 +26,6 @@ Open cmd as Administrator in your host machine and run: `set _NT_SYMBOL_PATH=srv
 9. Run in windbg: .reload /f (in order to load the kernel symbols)
 10. Ensure that all the symbols are loaded using: lm
  
-Now you got a kernel debugging session.
+Now you got a kernel debugging session, don't forget to take a snapshot.
 
 DONE!!!
